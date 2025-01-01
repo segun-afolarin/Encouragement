@@ -1,0 +1,113 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffefba, #d4fc79);
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #ff7f50;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+/* Main content styles */
+main {
+    padding: 1.5rem;
+}
+
+section {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #ff4500;
+}
+
+section ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f0f8ff;
+    border-left: 4px solid #ff4500;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #ff7f50;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Responsive styles for phones */
+@media (max-width: 768px) {
+    header {
+        padding: 1.5rem 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
+
+    blockquote {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
